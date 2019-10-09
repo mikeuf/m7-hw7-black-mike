@@ -1,0 +1,48 @@
+body {
+  font-family: 'Roboto', sans-serif;
+  font-size: 16px;
+  color: #666666;
+
+
+  background: #FFEFBA;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #FFFFFF, #FFEFBA);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #FFFFFF, #FFEFBA); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Oswald', sans-serif;
+}
+
+.fluid-container {
+  min-height: 100vh;
+}
+
+header {
+  box-sizing: border-box;
+  margin: 0 auto;
+  max-width: 960px;
+  padding: 3% 1rem 1rem 1rem;
+}
+
+main {
+  box-sizing: border-box;
+  margin: 0 auto;
+  max-width: 960px;
+  padding: 3% 1rem 1rem 1rem;
+}
+
+footer {
+  box-sizing: border-box;
+  margin: 0 auto;
+  max-width: 960px;
+  padding: 3% 1rem 1rem 1rem;
+
+}
+
+#weather-message {
+  font-size: 2rem;
+  font-weight: 300;
+}
+
